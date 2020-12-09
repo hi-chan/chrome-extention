@@ -1,0 +1,15 @@
+{
+  "name": "初期表示で書き換える",
+  "version": "1.0",
+  "description": "背景色を書き換える",
+  "content_scripts": [
+    {
+      "matches": ["https://developer.chrome.com/"],
+      "js": ["jquery-3.5.1.min.js", "content.js"]
+    }
+  ],
+  "icons": {
+    "48": "images/sample2.png"
+  },
+  "manifest_version": 2
+}
